@@ -84,7 +84,7 @@ if (app.Environment.IsDevelopment())
 }
 
 // https://learn.microsoft.com/en-us/aspnet/core/security/enforcing-ssl
-app.UseHttpsRedirection();
+// app.UseHttpsRedirection();
 
 // https://learn.microsoft.com/en-us/aspnet/core/security/cors
 app.UseCors();
